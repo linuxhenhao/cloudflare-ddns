@@ -40,7 +40,7 @@ func NewConfigClient() ConfigClient {
 func (cc *ConfigClient) LoadConfig() ConfigModel {
 	// load yaml first
 
-	model, err := LoadYaml("config.yaml")
+	model, err := LoadYaml("/etc/config/cloudflare-ddns.yaml.conf")
 	if err != nil {
 		log.Print(err)
 	}
