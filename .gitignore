@@ -4,6 +4,7 @@
 
 # Binaries for programs and plugins
 ddns
+cloudflare_ddns
 *.exe
 *.exe~
 *.dll
